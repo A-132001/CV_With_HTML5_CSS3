@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="./assets/formTask.css">
+</head>
+<div class="main-container">
+    <h1>Registration Page</h1>
+    <form action="#">
+        <div class="div-container">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div class="div-container">
+            <label for="password">password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div class="div-container">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="div-container">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <div class="div-container">
+            <label for="birthday">Age:</label>
+            <input type="number" min="20" id="age" name="age">
+        </div>
+        <div class="div-container">
+            <label for="Color">Choose a Color:</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Red</option>
+                <option value="saab">Green</option>
+                <option value="mercedes">Gold</option>
+                <option value="audi">Black</option>
+            </select>
+        </div>
+        <div class="div-container">
+            <label for="points">Satisfaction Rating</label>
+            <input type="range" min="0" max="100">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</div>
+
+<body>
+</body>
+
+</html>

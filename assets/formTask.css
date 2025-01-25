@@ -1,0 +1,49 @@
+body{
+    background-image: url("./badkground.jpg");
+}
+.main-container{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    text-align: center;
+    border: 1px solid rgb(56, 183, 233);
+    box-shadow: 5px 5px 2px rgb(56, 183, 233);
+    padding: 20px;
+    background-color: rgb(60 135 179);
+}
+form{
+    position: relative;
+    left: 0px;
+    text-align: left;
+    margin-left: 110px;
+}
+
+form > div{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+form > div label{
+    text-transform: uppercase;
+}
+
+form > div input,select{
+    height: 23px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 11px #a900ff;
+    margin-left: 20px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-left: 95px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #fbff0096;
+}
